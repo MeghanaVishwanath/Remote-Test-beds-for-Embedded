@@ -16,9 +16,9 @@ device sharing?
 BeagleBone Black, Light Sensor, Microphones, RGB Sensor, Logic Analyzer, IMU, Bluetooth Module, WiFi radio, Linux PC
 
 ### Team Members Responsibilities
-Aditi Dixit: Hardware Implementation (Interfacing the GPIO Pins, distinguish between input/output pins, and programming the controller)
-Kalyani Patle: Beagle Bone Black booting up and doing the interfacing of the sensors.
-Meghana Vishwanath: Research about the related work and the implementation part. Implementing the part from the User side. 
+- Aditi Dixit: Hardware Implementation (Interfacing the GPIO Pins, distinguish between input/output pins, and programming the controller)
+- Kalyani Patle: Beagle Bone Black booting up and doing the interfacing of the sensors.
+- Meghana Vishwanath: Research about the related work and the implementation part. Implementing the part from the User side. 
 
 ### Project Timeline
 October check-in: Interfacing the sensors and setup remote environment to access Beaglebone Black.

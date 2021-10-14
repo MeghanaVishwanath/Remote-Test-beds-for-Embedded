@@ -24,6 +24,6 @@ BeagleBone Black, Light Sensor, Microphones, RGB Sensor, Logic Analyzer, IMU, Bl
 October check-in: Interfacing the sensors and setup remote environment to access Beaglebone Black.
 
 ### References
-EmbedInsight: Automated Grading of Embedded Systems Assignments
-Design and Operation of a Lightweight Educational Testbed for Internet-of-Things Applications
-MoteLab: A Wireless Sensor Network Testbed
+- EmbedInsight: Automated Grading of Embedded Systems Assignments
+- Design and Operation of a Lightweight Educational Testbed for Internet-of-Things Applications
+- MoteLab: A Wireless Sensor Network Testbed

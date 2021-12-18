@@ -6,10 +6,12 @@ To design an embedded system integrated with different input and output devices 
 ### Design Goals
 Given a test device for embedded systems, enable remote access for multiple users, isolate software and hardware resources (GPIO pins in particular) for these users. Enable sharing of input resources like clock and sensors, and also output devices like radios interfaced with the device. Restrict access to the output pins for each user.
 
+## Mortality Rate in Each Countries in the order of number of confirmed cases.
+![](Results/2_Mortality_rate.png)
+
 ### Deliverables
 - Explore possible design choices with their pros and cons.
-- What are limitations imposed on a given embedded system task like PWM generation due to
-device sharing?
+- What are limitations imposed on a given embedded system task like PWM generation due to device sharing?
 - How to manage scenarios which require device reset and/or restart?
 
 ### Hardware/Software Requirements

@@ -18,8 +18,6 @@ BeagleBone Black, Light Sensor, Microphones, RGB Sensor, Logic Analyzer, IMU, Bl
 - We use multithreading to allocate our resources for each user in case same resources are being accessed.
 - We create an output file for each user and send this output file via email to the user.
 - The same process is used to let the users use the PWM output
-![image](https://user-images.githubusercontent.com/55087083/146626770-bc38eda6-6388-4e35-9c4e-9074957b6bf0.png)
-
 
 ### Team Members Responsibilities
 - Aditi Dixit: Hardware Implementation (Interfacing the GPIO Pins, distinguish between input/output pins, and programming the controller)

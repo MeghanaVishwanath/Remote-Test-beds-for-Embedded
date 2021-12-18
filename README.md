@@ -6,15 +6,20 @@ To design an embedded system integrated with different input and output devices 
 ### Design Goals
 Given a test device for embedded systems, enable remote access for multiple users, isolate software and hardware resources (GPIO pins in particular) for these users. Enable sharing of input resources like clock and sensors, and also output devices like radios interfaced with the device. Restrict access to the output pins for each user.
 
-### Block Diagram
-![](Remote-Test-beds-for-Embedded/RemoteTestbed(1).png)
-
-### Deliverables
-- Explore possible design choices with their pros and cons.
-- What are limitations imposed on a given embedded system task like PWM generation due to device sharing?
-
 ### Hardware/Software Requirements
 BeagleBone Black, Light Sensor, Microphones, RGB Sensor, Logic Analyzer, IMU, Bluetooth Module, WiFi radio, Linux PC
+
+### Methodology
+- The sensors are interfaced with the Beaglebone Black.
+- We launch the server on cloud9 through BeagleBone Black
+- Student users will be provided with a configuration file which will give details about the pin configuration and wiring on the BeagleBone Black controller.
+- The config file can be a txt file or a bin file.
+- We take the user codes and then allocate resources to each user.
+- We use multithreading to allocate our resources for each user in case same resources are being accessed.
+- We create an output file for each user and send this output file via email to the user.
+- The same process is used to let the users use the PWM output
+![image](https://user-images.githubusercontent.com/55087083/146626770-bc38eda6-6388-4e35-9c4e-9074957b6bf0.png)
+
 
 ### Team Members Responsibilities
 - Aditi Dixit: Hardware Implementation (Interfacing the GPIO Pins, distinguish between input/output pins, and programming the controller)

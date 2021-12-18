@@ -7,7 +7,7 @@ To design an embedded system integrated with different input and output devices 
 Given a test device for embedded systems, enable remote access for multiple users, isolate software and hardware resources (GPIO pins in particular) for these users. Enable sharing of input resources like clock and sensors, and also output devices like radios interfaced with the device. Restrict access to the output pins for each user.
 
 ### Block Diagram
-![](RemoteTestbed(1).png)
+![](RemoteTestbed (1).png)
 
 ### Deliverables
 - Explore possible design choices with their pros and cons.
